@@ -11,7 +11,7 @@ import 'package:widgetbook_annotation/widgetbook_annotation.dart';
 @UseCase(name: 'default', type: PrimaryButton)
 Widget buildPrimaryButtonUseCase(BuildContext context) {
   return  PrimaryButton(
-    content: content.knobs.string(label: 'Context', initialValue: 'Continue'),
+    content: context.knobs.string(label: 'Context', initialValue: 'Continue'),
     onPressed: () {},
-    )
+    );
 }
